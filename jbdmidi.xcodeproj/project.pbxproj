@@ -1,0 +1,228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D9777601510641A00926F1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D97775F1510641A00926F1A /* main.cpp */; };
+		6D97776B1510654700926F1A /* midi_event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D97776A1510654700926F1A /* midi_event.cpp */; };
+		6D97776E1510665100926F1A /* midi_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D97776D1510665100926F1A /* midi_file.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6D9777591510641A00926F1A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6D3203FB153A8EE600DCB358 /* ff6aria.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = ff6aria.mid; path = testdata/ff6aria.mid; sourceTree = SOURCE_ROOT; };
+		6D97775B1510641A00926F1A /* jbdmidi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jbdmidi; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D97775F1510641A00926F1A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6D9777681510644800926F1A /* midi_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = midi_event.h; path = src/midi_event.h; sourceTree = "<group>"; };
+		6D97776A1510654700926F1A /* midi_event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = midi_event.cpp; path = src/midi_event.cpp; sourceTree = "<group>"; };
+		6D97776C151065AE00926F1A /* midi_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = midi_file.h; path = src/midi_file.h; sourceTree = "<group>"; };
+		6D97776D1510665100926F1A /* midi_file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = midi_file.cpp; path = src/midi_file.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D9777581510641A00926F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D9777501510641A00926F1A = {
+			isa = PBXGroup;
+			children = (
+				6D97775E1510641A00926F1A /* jbdmidi */,
+				6D97775C1510641A00926F1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D97775C1510641A00926F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D97775B1510641A00926F1A /* jbdmidi */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D97775E1510641A00926F1A /* jbdmidi */ = {
+			isa = PBXGroup;
+			children = (
+				6D3203FB153A8EE600DCB358 /* ff6aria.mid */,
+				6D9777691510652900926F1A /* midi */,
+				6D97775F1510641A00926F1A /* main.cpp */,
+			);
+			path = jbdmidi;
+			sourceTree = "<group>";
+		};
+		6D9777691510652900926F1A /* midi */ = {
+			isa = PBXGroup;
+			children = (
+				6D9777681510644800926F1A /* midi_event.h */,
+				6D97776A1510654700926F1A /* midi_event.cpp */,
+				6D97776C151065AE00926F1A /* midi_file.h */,
+				6D97776D1510665100926F1A /* midi_file.cpp */,
+			);
+			name = midi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D97775A1510641A00926F1A /* jbdmidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D9777651510641A00926F1A /* Build configuration list for PBXNativeTarget "jbdmidi" */;
+			buildPhases = (
+				6D9777571510641A00926F1A /* Sources */,
+				6D9777581510641A00926F1A /* Frameworks */,
+				6D9777591510641A00926F1A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jbdmidi;
+			productName = jbdmidi;
+			productReference = 6D97775B1510641A00926F1A /* jbdmidi */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D9777521510641A00926F1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Joel Davis";
+			};
+			buildConfigurationList = 6D9777551510641A00926F1A /* Build configuration list for PBXProject "jbdmidi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D9777501510641A00926F1A;
+			productRefGroup = 6D97775C1510641A00926F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D97775A1510641A00926F1A /* jbdmidi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D9777571510641A00926F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9777601510641A00926F1A /* main.cpp in Sources */,
+				6D97776B1510654700926F1A /* midi_event.cpp in Sources */,
+				6D97776E1510665100926F1A /* midi_file.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6D9777631510641A00926F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6D9777641510641A00926F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6D9777661510641A00926F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D9777671510641A00926F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D9777551510641A00926F1A /* Build configuration list for PBXProject "jbdmidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D9777631510641A00926F1A /* Debug */,
+				6D9777641510641A00926F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D9777651510641A00926F1A /* Build configuration list for PBXNativeTarget "jbdmidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D9777661510641A00926F1A /* Debug */,
+				6D9777671510641A00926F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D9777521510641A00926F1A /* Project object */;
+}
